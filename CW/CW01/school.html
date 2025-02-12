@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quality Control for Web Design</title>
+</head>
+<body> 
+    <h1 class="e5">Exercise 5</h1><br><br>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+    </div><br><br>
+
+    <div class="advice">
+        <h2>Advice: How to Maintain Quality Control over Web Design</h2>
+        <ul>
+            <li>Ensure consistent styles across webpages (fonts, colors).</li>
+            <li>Provide instructures with templates to follow to fill out.</li>
+            <li>Use external stylesheets to separate content from styling.</li>
+            <li>Test the webpage on different browsers to ensure consistency.</li>
+        </ul>
+    </div>
+
+    <div class="process">
+        <h2>The Process</h2>
+        <p>To maintain consistent styling, I recommend using external CSS stylesheets that all pages can reference.
+            Having all the styles in one place ensures consistency across the entire website.
+            This is better than allowing each teacher to write their styles because it gets rid of
+            the possibility of using different fonts or colors which may make the website look inconsistent.
+            Using external stylesheets also make changes easier, in comparison to making individual changes across several
+            sections which would be time consuming.
+        </p>
+    </div>
+
+    <div class="tags">
+        <h2>Exploring Some HTML Tags and Styles</h2>
+        <h3>HTML Tags</h3>
+        <ol>
+            <li>Structural Tags</li>
+            <ul>
+                <li>&lt;div&gt;: Defines a section in an HTML document</li>
+                <li>&lt;header&gt;: Defines a header for the page</li>
+                <li>&lt;footer&gt;: Defines a footer for the page</li>
+                <li>&lt;section&gt;: Defines a section of content</li>
+            </ul>
+
+            <li>Text, Link, and Image Tags</li>
+            <ul>
+                <li>&lt;h1&gt;, &lt;h2&gt;...&lt;h6&gt;: Defines headings where h1 is the biggest and h6 is the lowest </li>
+                <li>&lt;p&gt;: Defines a paragraph</li>
+                <li>&lt;span&gt;: Used to style a part of a text</li>
+                <li>&lt;strong&gt;: Used to bold text</li>
+                <li>&lt;br&gt;: Inserts a line break</li>
+                <li>&lt;hr&gt;: Inserts a horizontal line</li>
+                <li>&lt;a&gt;: Used for a hyperlink</li>
+                <li>&lt;img&gt;: Embeds an image</li>
+            </ul>
+
+            <li>List Tags</li>
+            <ul>
+                <li>&lt;ul&gt;: Unordered list </li>
+                <li>&lt;ol&gt;: Ordered list</li>
+                <li>&lt;li&gt;: A list item</li>
+                <li>&lt;dl&gt;: Description list</li>
+                <li>&lt;dt&gt;: A term in a dl</li>
+                <li>&lt;dd&gt;: The description of the dt</li>
+            </ul>
+
+            <li>Table Tags</li>
+            <ul>
+                <li>&lt;table&gt;: Defines a table </li>
+                <li>&lt;tr&gt;: A table row</li>
+                <li>&lt;td&gt;: A table cell</li>
+                <li>&lt;th&gt;: A table header cell</li>
+            </ul>
+        </ol>
+        
+        <h3>CSS Tags</h3>
+        <ol>
+            <li>Text Styles</li>
+            <ul>
+                <li>color: To change text color</li>
+                <li>font-family: Defines the font</li>
+                <li>font-size: To change text size</li>
+                <li>font-weight: To set the thickness of the font (bold, normal)</li>
+                <li>text-align: To align the text (left, center, right)</li>
+            </ul>
+
+            <li>Box Styles</li>
+            <ul>
+                <li>width: Defines the width</li>
+                <li>height: Defines the height</li>
+                <li>padding: Defines the space between the content and the border</li>
+                <li>margin: Defines the space outside the border</li>
+                <li>background-color: Defines the background color of the box</li>
+            </ul>
+        </ol>
+    </div>
+
+    <div class="timetable">
+        <h2>Interactive Timetable</h2>
+        <table class="schedule" BORDER="1" CELLPADDING="10">
+            <TR><TH class="ttitle" COLSPAN="6">Team A's Weekly Schedule (Team of 4)</TH></TR>
+            <TR>
+                <th BGCOLOR=BEIGE>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </TR>
+            <TR>
+                <TD>9AM</TD>
+                <TD class="due" ROWSPAN="3">Design due dates section</TD>
+                <TD class="exam" ROWSPAN="2" COLSPAN="2">Design exam dates section</TD>
+                <TD class="syl" ROWSPAN="3">Start syllabus section</TD>
+                <TD class="syl" ROWSPAN="2">Finish syllabus section</TD>
+            </TR>
+            <TR>
+                <TD>10AM</TD>
+            </TR>
+            <TR>
+                <TD>11AM</TD>
+                <TD class="te">Continue teacher section</TD>
+                <TD class="tt">Start timetable section</TD>
+                <TD class="sub">Continue subjects section</TD>
+            </TR>
+            <TR>
+                <TD>12PM</TD>
+                <TD class="lunch" COLSPAN="6" ROWSPAN="2">Lunch</TD>
+            </TR>
+            <TR>
+                <TD>1PM</TD>
+            </TR>
+            <TR>
+                <TD>2PM</TD>
+                <TD class="due" ROWSPAN="2">Finish up due dates</TD>
+                <TD class="te" ROWSPAN="2">Finish teacher section</TD>
+                <TD class="tt" ROWSPAN="4">Finish timetables section</TD>
+                <TD class="sub" ROWSPAN="4">Start subjects section</TD>
+                <TD class="sub" ROWSPAN="4">Finish subjects section</TD>
+            </TR>
+            <TR>
+                <TD>3PM</TD>
+            </TR>
+            <TR>
+                <TD>4PM</TD>
+                <TD class="te" ROWSPAN="2">Design teacher section</TD>
+                <TD class="exam" ROWSPAN="2">Finish exam dates section</TD>
+            </TR>
+            <TR>
+                <TD>5PM</TD>
+            </TR>
+        </table>
+    </div><br><br><br><br>
+
+</body> 
+</html> 

@@ -1,0 +1,85 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: khaki;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: khaki(0, 0, 0);
+}
+
+
+.artist {
+    font-size: 14pt;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight: bold;
+    color: moccasin;
+}
+
+.song {
+    font-size: 14pt;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight: normal;
+    color: khaki
+}
+
+.album {
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: normal;
+    color: khaki
+}
+
+.year {
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: ivory;
+}
+
+.verse {
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.chorus {
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+
+body {
+    background-color: chocolate;
+    margin: 0px;
+}
+
+h1,h2 {
+    margin-left: 2cm;
+}
+
+.e3 {
+    font-family: sans-serif;
+    color: khaki;
+}

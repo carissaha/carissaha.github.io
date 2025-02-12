@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: rgba(115, 145, 141, 0.295);
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+}
+
+.advice {
+    background-color: rgb(212, 228, 226);
+    padding: 40px;
+    line-height: 2;
+}
+
+.process {
+    background-color: rgb(239, 248, 247);
+    padding: 40px;
+    line-height: 2;
+}
+
+.tags {
+    background-color: rgb(212, 228, 226);
+    padding: 40px;
+    line-height: 2;
+}
+
+.timetable {
+    background-color: rgb(239, 248, 247);
+    padding: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.schedule {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ttitle {
+    background-color: rgb(248, 236, 192);
+    column-span: 6;
+}
+
+.schedule tr:nth-child(2) {
+    background-color: rgb(219, 237, 255);
+}
+
+.schedule td:first-child {
+    background-color: beige;
+}
+
+.lunch {
+    background-color: rgb(255, 220, 164);
+}
+
+.due {
+    background-color: rgb(170, 255, 204);
+}
+
+.exam {
+    background-color: rgb(255, 181, 181);
+}
+
+.te {
+    background-color: rgb(197, 200, 255);
+}
+
+.tt {
+    background-color: rgb(223, 179, 255);
+}
+
+.syl {
+    background-color: rgb(255, 178, 237);
+}
+
+.sub {
+    background-color: rgb(186, 255, 255);
+}

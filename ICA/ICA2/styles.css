@@ -1,0 +1,80 @@
+.table {
+   width: 400px;
+   height: 300px;
+
+   /* TODO: Add part of your solution here */
+   background: linear-gradient(to bottom, forestgreen, darkgreen)
+}
+
+.card-red {
+   color: red;
+}
+
+.card-black {
+   color: black;
+}
+
+.card {
+   background-color: whitesmoke;
+   border: 1px solid black;         
+   width: 100px;
+   height: 160px;
+   line-height: 160px;
+   text-align: center;
+   font-size: 80px;
+
+   /* TODO: Add part of your solution here */
+   border-radius: 5px;
+   box-shadow: 3px 3px black;
+
+}      
+
+.card-top {
+   /* TODO: Add part of your solution here */
+   position: absolute;
+   left: 150px;
+   top: 100px;
+   z-index: 1;
+
+}
+
+.card-bottom {
+   /* TODO: Add part of your solution here */
+   position: absolute;
+   left: 240px;
+   top: 120px;
+   z-index: 0;
+
+}
+
+.heart {
+   color: red;
+   font-size: 28px; 
+   width: 30px;
+   height: 30px;  
+   line-height: 30px;
+}
+
+.spade {
+   color: black;
+   font-size: 36px; 
+   width: 30px;
+   height: 30px;  
+   line-height: 30px;
+}
+
+.top-left {
+   /* TODO: Add part of your solution here */
+   position: absolute;
+   left: 2px;
+   top: 2px;
+
+}
+
+.bottom-right {
+   /* TODO: Add part of your solution here */
+   position: absolute;
+   right: 2px;
+   bottom: 2px;
+
+}
