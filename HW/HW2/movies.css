@@ -1,1 +1,111 @@
 
+
+body {
+    background-image: url('background.png');
+    margin: 0;
+    padding: 0;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('bannerbackground.png');
+    height: 50px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.content-area {
+    width: 800px;
+    border: 4px gray solid;
+    margin: 0 auto;
+}
+
+.parent-rating {
+    width: 550px;
+}
+
+.rating-section {
+    background-image: url('rottenbackground.png');
+    display: flex;
+}
+
+.rating {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    align-self: flex-end;
+}
+
+.reviews {
+    font-size: 8pt;
+    color: white;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.reviews-columns {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.left-col {
+    width: 47%;
+    margin-right: 2%;
+    
+}
+
+.right-col {
+    width: 47%;
+    
+}
+
+.text-box {
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.rating-icon {
+    float: left;
+    margin-right: 5px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.parent-critic {
+    display: flex;
+    align-self: flex-start;
+}
+.critic {
+    float: left;
+    margin-right: 2%;
+}
+
+.critic-info {
+    display: block;
+}
+.critic-info .name,
+.critic-info .publication {
+    display: block;
+}
+
+.critic-info .publication {
+    font-style: italic;
+}
+
+
