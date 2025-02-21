@@ -27,6 +27,8 @@ h1 {
     width: 800px;
     border: 4px gray solid;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .parent-rating {
@@ -71,6 +73,10 @@ h1 {
     
 }
 
+.review-box {
+    margin-bottom: 40px;
+}
+
 .text-box {
     background-color: #E1D697;
     border: 2px solid gray;
@@ -108,4 +114,41 @@ h1 {
     font-style: italic;
 }
 
+.general-overview {
+    width: 250px;
+}
+
+.overview-img {
+    width: 100%;
+    display: block;
+}
+
+.overview-content {
+    background-color: #A2B964;
+    padding: 10px;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer-bar {
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.validator-links {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.validator-links a {
+    display: block;
+}
 
