@@ -67,28 +67,26 @@ echo "Word count: " . word_count("hello, how are you?") . "<br>";
 <?php
 function countWords($str) {
     $str = strtolower($str);
-    $words = preg_split('/\s+/', trim($str));
-    $wordCount = [];
+    $words = explode(" ", $str);
+    $wordCounts = [];
 
     foreach ($words as $word) {
         if (!empty($word)) {
-            if (isset($wordCount[$word])) {
-                $wordCount[$word]++;
+            if (isset($wordCounts[$word])) {
+                $wordCounts[$word]++;
             } else {
-                $wordCount[$word] = 1;
+                $wordCounts[$word] = 1;
             }
         }
     }
 
-    return $wordCount;
+    foreach ($wordCounts as $word => $count) {
+        echo "$word: $count<br>";
+    }
 }
 
 $sentence = "Hello hello world world world";
-$wordFrequency = countWords($sentence);
-
-echo "<pre>";
-print_r($wordFrequency);
-echo "</pre>";
+countWords($sentence);
 ?>
 
 <h1>Exercise 6</h1>
@@ -99,12 +97,10 @@ function remove_all($str, $char) {
     for ($i = 0; $i < strlen($str); $i++) {
         if ($str[$i] != $char) { 
             $result .= $str[$i];
+        }
     }
-
     return $result;
-    }
 }
-
 echo remove_all("Summer is here!", 'e') . "<br>";
 ?>
 
