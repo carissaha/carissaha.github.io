@@ -7,16 +7,41 @@ h1 {
 }
 
 h2 {
-    margin-left: 15%;
+    margin-left: 30%;
     margin-top: auto;
 }
 
-input, textarea {
-    padding: 5px;
-    border-radius: 5px;
-    width: 60%;
+label, input, textarea, select {
+    margin-left: 30%;
 }
 
-label, input, textarea {
-    margin-left: 15%;
+input:not([type="radio"]):not([type="checkbox"]),
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 40%;
+}
+
+.button-group {
+    display: flex;
+    margin-left: 30%;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.submit {
+    background-color: rgb(76, 76, 251);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(70, 70, 198);
+}
+
+.clear {
+    cursor: pointer;
 }

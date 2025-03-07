@@ -6,7 +6,8 @@
 </head>
 <body>
     <h1>Job Application Form</h1>
-    <form method="POST" action="">
+
+    <form method="POST" action="job.php">
         <label for="position">Position Applied For:</label><br>
         <input type="text" id="position" name="position" required><br><br>
 
@@ -14,7 +15,7 @@
         <input type="text" id="name" name="name" required><br><br>
 
         <label for="gender">Gender:</label><br>
-        <input type="radio" id="genderMale" name="gender" value="Male"> Male
+        <input type="radio" id="genderMale" name="gender" value="Male"> Male<br>
         <input type="radio" id="genderFemale" name="gender" value="Female" checked> Female<br><br>
 
         <label for="nationality">Nationality:</label><br>
@@ -35,6 +36,8 @@
         <h2>Educational History and Qualifications:</h2>
         <textarea id="education" name="education" rows="8" required></textarea><br><br>
 
+        <h2>Work Experience/Employment/Training:</h2>
+
         <label for="yearsExperience">Years of Experience:</label><br>
         <input type="number" id="yearsExperience" name="yearsExperience" required><br><br>
 
@@ -50,7 +53,13 @@
         <input type="text" id="refereeOccupation" name="refereeOccupation" required><br><br>
 
         <label for="refereeRelationship">Relationship:</label><br>
-        <input type="text" id="refereeRelationship" name="refereeRelationship" required><br><br>
+        <select id="refereeRelationship" name="refereeRelationship" required>
+            <option value="Friend">Friend</option>
+            <option value="Family">Family</option>
+            <option value="Colleague">Colleague</option>
+            <option value="Supervisor">Supervisor</option>
+            <option value="Other">Other</option>
+        </select><br><br>
 
         <label for="refereeAddress">Address:</label><br>
         <input type="text" id="refereeAddress" name="refereeAddress" required><br><br>
@@ -59,18 +68,23 @@
         <input type="text" id="refereePhone" name="refereePhone" required><br><br>
 
         <label for="vegetarian">Vegetarian:</label><br>
-        <input type="radio" id="vegetarianYes" name="vegetarian" value="Yes"> Yes
-        <input type="radio" id="vegetarianNo" name="vegetarian" value="No" checked> No<br><br>
+        <input type="checkbox" id="vegetarianYes" name="vegetarian" value="Yes"> Yes<br>
+        <input type="checkbox" id="vegetarianNo" name="vegetarian" value="No"> No<br><br>
 
-        <label for="fruits">Preferred Fruits (check all that apply):</label><br>
-        <input type="checkbox" id="fruitsApple" name="fruits[]" value="Apple"> Apple<br>
-        <input type="checkbox" id="fruitsBanana" name="fruits[]" value="Banana"> Banana<br>
-        <input type="checkbox" id="fruitsCherry" name="fruits[]" value="Cherry"> Cherry<br>
-        <input type="checkbox" id="fruitsOrange" name="fruits[]" value="Orange"> Orange<br>
-        <input type="checkbox" id="fruitsStrawberry" name="fruits[]" value="Strawberry"> Strawberry<br><br>
+        <label for="fruits">Select Fruits (Hold Ctrl/Command to select multiple):</label><br>
+        <select id="fruits" name="fruits" multiple size="4">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Orange">Orange</option>
+            <option value="Strawberry">Strawberry</option>
+        </select><br><br>
 
-        <input type="submit" value="Submit">
-        <input type="clear" value="Clear to Reset">
+        <div class="button-group">
+            <button class="submit">Submit</button>
+            <button type="reset">Clear to Reset</button>
+        </div>
     </form>
+
 </body>
 </html>
