@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="job.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form method="POST" action="">
+        <label for="position">Position Applied For:</label><br>
+        <input type="text" id="position" name="position" required><br><br>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="genderMale" name="gender" value="Male"> Male
+        <input type="radio" id="genderFemale" name="gender" value="Female" checked> Female<br><br>
+
+        <label for="nationality">Nationality:</label><br>
+        <input type="text" id="nationality" name="nationality" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="8" required></textarea><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <h2>Educational History and Qualifications:</h2>
+        <textarea id="education" name="education" rows="8" required></textarea><br><br>
+
+        <label for="yearsExperience">Years of Experience:</label><br>
+        <input type="number" id="yearsExperience" name="yearsExperience" required><br><br>
+
+        <label for="personalStatement">Personal Statement:</label><br>
+        <textarea id="personalStatement" name="personalStatement" rows="8" required></textarea><br><br>
+
+        <h2>Referees:</h2>
+
+        <label for="refereeName">Name:</label><br>
+        <input type="text" id="refereeName" name="refereeName" required><br><br>
+
+        <label for="refereeOccupation">Occupation:</label><br>
+        <input type="text" id="refereeOccupation" name="refereeOccupation" required><br><br>
+
+        <label for="refereeRelationship">Relationship:</label><br>
+        <input type="text" id="refereeRelationship" name="refereeRelationship" required><br><br>
+
+        <label for="refereeAddress">Address:</label><br>
+        <input type="text" id="refereeAddress" name="refereeAddress" required><br><br>
+
+        <label for="refereePhone">Phone:</label><br>
+        <input type="text" id="refereePhone" name="refereePhone" required><br><br>
+
+        <label for="vegetarian">Vegetarian:</label><br>
+        <input type="radio" id="vegetarianYes" name="vegetarian" value="Yes"> Yes
+        <input type="radio" id="vegetarianNo" name="vegetarian" value="No" checked> No<br><br>
+
+        <label for="fruits">Preferred Fruits (check all that apply):</label><br>
+        <input type="checkbox" id="fruitsApple" name="fruits[]" value="Apple"> Apple<br>
+        <input type="checkbox" id="fruitsBanana" name="fruits[]" value="Banana"> Banana<br>
+        <input type="checkbox" id="fruitsCherry" name="fruits[]" value="Cherry"> Cherry<br>
+        <input type="checkbox" id="fruitsOrange" name="fruits[]" value="Orange"> Orange<br>
+        <input type="checkbox" id="fruitsStrawberry" name="fruits[]" value="Strawberry"> Strawberry<br><br>
+
+        <input type="submit" value="Submit">
+        <input type="clear" value="Clear to Reset">
+    </form>
+</body>
+</html>

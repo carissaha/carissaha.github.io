@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 15%;
+    margin-top: auto;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+label, input, textarea {
+    margin-left: 15%;
+}
