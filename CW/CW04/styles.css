@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(219, 235, 235);
+    margin: 0;
+    padding: 0;
+    color: rgb(25, 67, 67);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.159);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ex-button {
+    margin-bottom: 20px;
+    background-color: azure;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #586e6f;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.159);
+}
+
+.ex-button:hover {
+    background-color: rgb(225, 244, 244);
+}
