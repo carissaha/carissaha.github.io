@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>In Class Activity 6</title>
+</head>
+<body>
+    <div class="container">
+    <p>
+        3) After reloading a few times, the number of times visited changes and the last visit. 
+        At first it was none, then 1, then 2.<br><br>
+        4) If I visited the page twice, it says there are 2 cookies.<br><br>
+        5) Now it says "There is no record when you last visited this page previously".<br><br>
+        6) The other cookies that my browser has stored are from youtube.com, gsu.edu, amazon.com, webex.com, and googleadservices.com.
+        Around 60% has been from my web work.<br><br>
+        7) Nothing visually changed, but if there is output before the code for the cookie, the cookie may not be set correctly. <br><br>
+        9) Clicking it leads to session-cookies-3.php which shows "Authorization Failure!" and "Please log in before accessing this page."<br><br>
+        10) It does the same thing, stating authorization failure and to try again.<br><br>
+        11) Even if the user doesn't enter a correct password or any other data, this random number cookie will still be set.
+        The random number cookie and the session cookie serve different purposes. 
+        The session cookie tracks the user's session state, while the random number cookie stores a random number and exists even if the user is not logged in or doesn't have a session.<br><br>
+        12) The name I see is PHPSESSID for the session cookie.<br><br>
+        13) Yes, it says "Authorization Succeeded" and "You have logged in previously, so processing can continue on this page."<br><br>
+        14) session-cookies-1 sends the password to session-cookies-2 for verification. Here, cookies are used to track visit history (first visit, last visit, number of visits).
+        session-cookies-2 checks if the session variable is already set. If it is set, the user has previously logged in successfully. If not, the script verifies the password.
+        If the password is correct, authorized is set to ok, but if incorrect, the session variable is not set, denying access. session-cookies-3 checks if the session variable is set to ok.
+        If it is, the user is logged in. If not, access is denied. <br><br>
+    </p>
+    </div>
+
+</body> 
+</html>
