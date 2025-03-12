@@ -5,7 +5,7 @@ You should not need to modify this file.  Your pages should work with it as-is.
 */
 
 * {
-	font-size: 12pt;
+	
 	font-family: "Verdana", "Geneva", sans-serif;
 }
 
@@ -29,6 +29,7 @@ a img {
 body {
 	background-color: white;
 	padding-left: 1em;
+	font-size: 12pt;
 }
 
 body > div, form {
