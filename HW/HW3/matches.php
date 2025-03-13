@@ -18,6 +18,7 @@ include 'common.php';
     </head>
 
 	<?php do_header(); // Display header ?>
+    <p><a href="loginScripts/index.php">Back to front page</a></p>
 
     <fieldset>
             <legend>Returning User:</legend>

@@ -20,7 +20,6 @@ function do_footer() {
 	    
         <p>Results and page (C) Copyright NerdLuv Inc.</p>
 	
-        <p><a href="index.php">Back to front page</a></p>
 	    <p><a href="logout.php">Logout</a></p><br><br>
         
         <div id="w3c">

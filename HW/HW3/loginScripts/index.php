@@ -20,6 +20,7 @@ if(!isset($_SESSION['UserData']['Username'])){
 
     <p><b>Welcome!</b></p>
     <p><a href="login.php">Back to login</a></p>
+    <p><a href="../signup.php">Sign up for a new account</a></p>
 	<p><a href="../matches.php">Check your matches</a></p><br><br>
 
 	<?php do_footer(); // Display footer ?>
