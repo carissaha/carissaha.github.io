@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CW05: Form Validation</title>
+</head>
+<body>
+    <form id="userForm">
+        <div class="row">
+            <label for="userID">ID:</label>
+            <input type="text" id="userID" name="userID">
+            <span class="error" id="userIDError"></span>
+        </div>
+        <div class="row">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <span class="error" id="firstNameError"></span>
+        </div>
+        <div class="row">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <span class="error" id="lastNameError"></span>
+        </div>
+        <input type="button" value="Add" onclick="validateForm()">
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
