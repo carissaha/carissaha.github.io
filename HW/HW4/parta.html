@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="guess.js" defer></script>
+</head>
+<body>
+  <h1>Guess the Secret Number!</h1>
+  <p>I'm thinking of a number between 1 and 100.</p>
+
+  <label for="guessInput">Your Guess:</label>
+  <input type="number" id="guessInput" min="1" max="100">
+  <button id="guessBtn">Guess</button>
+
+  <p id="feedback"></p>
+  <p id="guessCount"></p>
+  <p id="clock">Time: 0s</p>
+
+  <audio id="correctSound" src="sounds/correct.mp3" preload="auto"></audio>
+  <audio id="wrongSound" src="sounds/wrong.mp3" preload="auto"></audio>
+  <audio id="loseSound" src="sounds/lose.mp3" preload="auto"></audio>
+
+  <a href="partb.html">Play Memory Game (Part B)</a>
+</body>
+</html>

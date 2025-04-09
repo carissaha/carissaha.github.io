@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+  
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+  
+#feedback {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+  
+a {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+}
+  
+.card {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    object-fit: cover;
+}
+  
+#award {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+    animation: pop 0.5s ease-in-out;
+}
+  
+@keyframes pop {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
