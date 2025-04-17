@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(219, 235, 235);
+    margin: 0;
+    padding: 0;
+    color: rgb(25, 67, 67);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.159);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+}
